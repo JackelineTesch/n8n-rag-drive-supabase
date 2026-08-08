@@ -1,0 +1,27 @@
+# Arquivos de ambiente e chaves secretas
+.env
+.env.local
+.env.*
+*.env
+
+# Chaves de API, credenciais e certificados
+*.json
+!workflows/*.json   # Ignora arquivos JSON genéricos, mas mantém os fluxos do n8n na pasta workflows
+*.pem
+*.key
+*.p12
+
+# Arquivos temporários e dados baixados durante testes
+/downloads/
+/temp/
+*.pdf
+*.csv
+*.xlsx
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Configurações de IDEs e editores
+.vscode/
+.idea/
